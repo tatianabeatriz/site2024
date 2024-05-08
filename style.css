@@ -1,0 +1,79 @@
+/* Estilos para o index.html */
+body.index {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    text-align: center;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+h1, h2 {
+    font-size: 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Estilização para parágrafos impares */
+.par-impar {
+    font-size: 16pt;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+
+/* Estilização para parágrafos pares */
+.par-par {
+    font-size: 20pt;
+    font-family: Verdana, sans-serif;
+    color: blue;
+}
+
+/* Estilos para o site interno */
+body.interno {
+    background: linear-gradient(to bottom, #ffff00, #ffffff);
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+#interno h1, #interno h2 {
+    color: #333;
+}
+
+#interno p {
+    margin-bottom: 10px;
+}
+
+/* Estilização para parágrafos impares */
+#interno .par-impar {
+    font-size: 18pt;
+    font-family: Arial, sans-serif;
+    color: #800000; /* Marrom escuro */
+}
+
+/* Estilização para parágrafos pares */
+#interno .par-par {
+    font-size: 22pt;
+    font-family: Tahoma, sans-serif;
+    color: #000080; /* Azul escuro */
+}
