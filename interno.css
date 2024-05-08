@@ -1,0 +1,43 @@
+/* Estilos para o site_interno.html */
+body {
+    background: linear-gradient(to bottom, #ffff00, #ffffff); /* Degrade de amarelo para branco */
+    text-align: center;
+}
+
+header, main, footer {
+    margin: 0 auto; /* Centraliza os elementos */
+    width: 80%; /* Define a largura máxima dos elementos */
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+main {
+    text-align: justify;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilização para parágrafos impares */
+.par-impar {
+    font-size: 16pt;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+
+/* Estilização para parágrafos pares */
+.par-par {
+    font-size: 20pt;
+    font-family: Verdana, sans-serif;
+    color: blue;
+}
