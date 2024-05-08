@@ -1,6 +1,6 @@
 /* Estilos para o index.html */
 body.index {
-    background: linear-gradient(to bottom, #ffff00, #ffffff); /* Degrade de amarelo para branco */
+    background: linear-gradient(to bottom, #ffffff, #ffff00); /* Degrade de amarelo para branco */
     text-align: center;
 }
 
